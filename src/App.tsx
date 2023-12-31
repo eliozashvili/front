@@ -1,5 +1,7 @@
+import Login from 'front/Login';
+
 function App() {
-  return <p className="text-red-500">Front</p>;
+  return <Login />;
 }
 
 export default App;
