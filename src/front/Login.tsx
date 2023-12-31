@@ -1,3 +1,4 @@
+import Button from 'components/Button';
 import Input from 'components/Input';
 
 const Login = function () {
@@ -5,6 +6,7 @@ const Login = function () {
     <div className="flex flex-col justify-center items-center h-screen">
       <Input type="text" placeholder="login" value="" />
       <Input type="text" placeholder="password" value="" />
+      <Button type="button" text="Log In" />
     </div>
   );
 };
