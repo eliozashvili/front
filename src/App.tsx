@@ -1,7 +1,5 @@
-import './App.css';
-
 function App() {
-  return <p>Front</p>;
+  return <p className="text-red-500">Front</p>;
 }
 
 export default App;
